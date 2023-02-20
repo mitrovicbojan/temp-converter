@@ -3,10 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <link rel="stylesheet" href="style.css" />
-    <title>Celsius/Fahrenheit Converter</title>
+    <title>Basic data structures JS</title>
   </head>
   <body>
     <main>
@@ -15,22 +14,21 @@
       </header>
       <section class="inputs">
         <input
-          type="number"
+          
           name="celsius"
           id="celsius"
           class="input"
           placeholder="Celsius"
         />
-
-        <input
-          type="number"
-          name="fahrenheit"
-          id="fahrenheit"
-          class="input"
-          placeholder="Fahrenheit"
-        />
+        
+        <div class="result">
+          <h3>Temperature in Fahrenheit:</h3>
+          <p id="calc"></p>
+        </div>
+        
+        <button class="btn" id="btn">Calculate</button>
+       
       </section>
-    </main>
     <script src="main.js"></script>
   </body>
 </html>
